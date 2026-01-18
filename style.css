@@ -74,10 +74,7 @@ main:hover {
 
 
 
-footer {
-  text-align: center;
-  background-color: #232323;
-}
+
 section {
   background: var(--dark-gray);
   padding: 2rem;
@@ -124,4 +121,65 @@ h2 {
 .goal-highlights {
   color: var(--primary);
   font-weight: 500;
+}
+.job-application
+.edu-items
+.project-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  color:  var(--dark-gray);
+}
+.timeline {
+color: #888;
+font-size: 0.9rem;
+}
+.panel {
+  display: flex;
+  padding: 1rem;
+  background: #2a2a2a;
+  border-radius: 5px;
+}
+.skills-grid {
+  display: grid;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-card {
+  background: #2a2a2a;
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(26, 143, 151, 0.7);
+  transition: transform 0.2;
+  display: flex;
+  flex-direction: column;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+.project-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.project-card p {
+  margin-bottom: 15px;
+}
+.project-button {
+  background-color: var(--primary);
+  color: var(--text);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: auto;
+}
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  color:#777;
 }
